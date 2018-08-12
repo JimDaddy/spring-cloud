@@ -78,6 +78,8 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
+                    <registryUrl>192.168.10.104:5000</registryUrl>
+                    <pushImage>true</pushImage>
                     <!--<serverId>docker-hub</serverId>-->
                 </configuration>
             </plugin>
