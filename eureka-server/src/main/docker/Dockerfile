@@ -1,5 +1,5 @@
 FROM java
-VOLUME java
+VOLUME /tmp
 ADD eureka-server-0.0.1-SNAPSHOT.jar eureka-server.jar
 RUN bash -c 'touch /eureka-server.jar'
 EXPOSE 8761
